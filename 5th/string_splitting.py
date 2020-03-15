@@ -1,0 +1,10 @@
+gradestr = input()
+grades = gradestr.split()
+print(grades)
+print(type(grades))
+gradestr = input()
+grades = gradestr.split(',')
+print(grades)
+print(type(grades))
+for i in grades:
+    print(str(type(i)), i)
